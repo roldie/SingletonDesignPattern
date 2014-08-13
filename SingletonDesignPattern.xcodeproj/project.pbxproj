@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0372C671199AFECC00DD3E9E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0372C670199AFECC00DD3E9E /* main.cpp */; };
 		0372C673199AFECC00DD3E9E /* SingletonDesignPattern.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0372C672199AFECC00DD3E9E /* SingletonDesignPattern.1 */; };
+		0372C67B199AFF0A00DD3E9E /* SingletonPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0372C679199AFF0A00DD3E9E /* SingletonPattern.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		0372C66D199AFECC00DD3E9E /* SingletonDesignPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SingletonDesignPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		0372C670199AFECC00DD3E9E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0372C672199AFECC00DD3E9E /* SingletonDesignPattern.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SingletonDesignPattern.1; sourceTree = "<group>"; };
+		0372C679199AFF0A00DD3E9E /* SingletonPattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingletonPattern.cpp; sourceTree = "<group>"; };
+		0372C67A199AFF0A00DD3E9E /* SingletonPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonPattern.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 		0372C66F199AFECC00DD3E9E /* SingletonDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				0372C679199AFF0A00DD3E9E /* SingletonPattern.cpp */,
+				0372C67A199AFF0A00DD3E9E /* SingletonPattern.h */,
 				0372C670199AFECC00DD3E9E /* main.cpp */,
 				0372C672199AFECC00DD3E9E /* SingletonDesignPattern.1 */,
 			);
@@ -117,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0372C67B199AFF0A00DD3E9E /* SingletonPattern.cpp in Sources */,
 				0372C671199AFECC00DD3E9E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
