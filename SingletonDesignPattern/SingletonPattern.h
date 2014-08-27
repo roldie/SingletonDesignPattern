@@ -14,12 +14,15 @@
 class SingletonPattern{
     
 private:
-    
+    /*!
+     * simple variable
+     */
     int i;
     
 protected:
     
     //constructor
+   
     SingletonPattern():i(0){};
     
     //destructor
@@ -36,6 +39,12 @@ public:
     static SingletonPattern* sharedInstance();
     
     //set the value of i
+    
+    /*!
+     *  this is a method
+     *
+     *  @param uValue this is a description
+     */
     void setValue(int uValue);
     
     //get the value of i
